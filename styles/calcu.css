@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.display{
+    background: #ffffff79;
+}
+.bButton{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(https://miro.medium.com/v2/resize:fit:720/format:webp/1*dXZlIr4SkImf5KC_eYhLKw.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.calculator{
+    padding: 20px;
+    border-radius: 10px;
+    background:linear-gradient(135deg, rgba(255, 255, 255,  0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 3px 0 rgba(0, 0, 0, 0.37);
+}
+.time:hover{
+    background-color: gray;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
+
+
+
+form input.operator{
+    color: rgb(114, 194, 226);
+}

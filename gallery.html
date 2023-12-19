@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <title>Document</title>
+</head>
+<body>
+ <a class="BackB" href="second.html">BACK</a>
+   
+    <div class="slideshow-container">
+
+    
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 10</div>
+          <img src="images/luffy.png">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 10</div>
+          <img src="images/zorro.jpg">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 10</div>
+          <img src="images/nami.png">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <img src="images/usopp.jpg">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="images/sanji.jpg">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img src="images/chopper.jpg">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img src="images/robin.jpg">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img src="images/franky.jpg">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img src="images/brook.jpg">
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img src="images/jinbei.jpg">
+          </div>
+          <center>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KU_1D3FTMt4?si=QnLp11aT7TVQnMKq&amp;controls=0&amp;start=32" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </center>
+        
+      <script>
+       let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 10000); 
+    }
+      </script>
+    </body>
+    </html>

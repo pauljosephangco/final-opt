@@ -1,0 +1,45 @@
+.container {
+    
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background:linear-gradient(135deg, rgba(255, 255, 255,  0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 3px 0 rgba(0, 0, 0, 0.37);
+}
+.box {
+    width: 190;
+
+
+}
+.box h1{
+    color: #fff;
+}
+input {
+    margin:10px;
+}
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    margin-bottom: 3px;
+}
+
+body {
+    background: url(https://cdn.wallpapersafari.com/69/16/S8uBZe.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
